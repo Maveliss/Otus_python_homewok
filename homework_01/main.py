@@ -16,7 +16,7 @@ def power_numbers(*numbers, power=2):
     <<< [1, 4, 25, 49]
     """
 
-#print(power_numbers(1, 2, 5, 7))
+print(power_numbers(1, 2, 5, 7))
 
 
 # filter types
@@ -42,8 +42,8 @@ def filter_numbers(numbers_list, filter_type):
         return prime_numbers
 
 
-#print(filter_numbers([1, 2, 3], ODD))
-#print(filter_numbers([2, 3, 4, 5], EVEN))
+print(filter_numbers([1, 2, 3], ODD))
+print(filter_numbers([2, 3, 4, 5], EVEN))
 print(filter_numbers([2, 3, 4, 5, 7, 11, 15, 17, 20, 25], PRIME))
 """
     функция, которая на вход принимает список из целых чисел,
